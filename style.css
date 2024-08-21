@@ -7,6 +7,12 @@
     /* border: 2px solid black; */
 }
 
+@media only screen  and (min-width: 601px){
+   *{
+    background-color: red;
+   } 
+}
+
 @media only screen and (max-width:600px) {
     .container{
         display: flex;
@@ -16,8 +22,9 @@
 
     /* Main content Styling */
     .app{
-        width: calc(100vw - 20.5%);
+        width: calc(100vw - 20%);
         padding: 0.5rem;
+        /* border: 2px solid; */
     }
 
     h1{
@@ -28,7 +35,7 @@
 
     /* Input Bar Styling */
     #task{
-        width: calc(100vw - 30%);
+        width: 100%; /* This fits the width in the app container making it take 100% of its parent element width*/
         padding: 0.25rem 0.5rem;
         border: 1px solid #00000066;
         background-color: #0000000D;
