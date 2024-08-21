@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html translate="no" lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To-Do App</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="app">
+			<h1>To-Do App</h1>
+			<div class="task-input">
+				<form id="form-field">
+					<label for="task"></lable>
+						<input type="text" id="task" name="task" autocomplete="off" placeholder="To-Do">
+						<div class="buttons">
+							<button type="reset" id="add-task" class="btn">Add</button>
+							<button type="button" id="delete-all" class="btn danger">Delete All</button>
+						</div>
+				</form>
+			</div>
+			<div class="task-list">
+				<ul class="task-items">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="./index.js"></script>
+
+</body>
+
+</html>

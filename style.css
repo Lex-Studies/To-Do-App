@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    /* border: 2px solid black; */
+}
+
+@media only screen and (max-width:600px) {
+    .container{
+        display: flex;
+        margin: 1rem;
+        justify-content: center;
+    }
+
+    /* Main content Styling */
+    .app{
+        width: calc(100vw - 20.5%);
+        padding: 0.5rem;
+    }
+
+    h1{
+        font-size: 1.5rem;
+        margin: 1rem 0rem;
+        text-align: center;
+    }
+
+    /* Input Bar Styling */
+    #task{
+        width: calc(100vw - 30%);
+        padding: 0.25rem 0.5rem;
+        border: 1px solid #00000066;
+        background-color: #0000000D;
+        border-radius: 0.25rem;
+    }
+
+    /* "ADD" and "DELETE ALL" button styling */
+    .buttons{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Unordered List styling */
+    ul{
+        list-style-type: none;
+        list-style-position: inside;
+    }
+
+    /* List Items styling */
+    li{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+}
+
+/* 
+.container {
+    margin-top: 25vh;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#task {
+    width: 51rem;
+    height: 1.75rem;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    border: 2px solid red;
+    margin-bottom: 1rem;
+}
+ */
+
+.btn {
+    padding: 0.25rem 0.5rem;
+    background: #24a0ed;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #24a0ed;
+    border: 2px solid #24a0ed;
+}
+
+.danger {
+    border: 2px solid #ea4c56;
+    background-color: #fff;
+    color: #ea4c56;
+}
+
+.danger:hover {
+    background-color: #ea4c56;
+    color: #fff;
+    border: 2px solid transparent;
+}
