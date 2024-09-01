@@ -45,6 +45,7 @@ ul {
 /* List Items styling */
 li {
     display: flex;
+    gap: 2rem;
     justify-content: space-between;
     align-items: center;
     margin-top: 1.5rem;
